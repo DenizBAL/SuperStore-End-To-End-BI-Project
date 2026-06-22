@@ -5,8 +5,7 @@ Bu proje, **SuperStore** veri seti üzerinde gerçekleştirilmiş uçtan uca bir
 ---
 
 ## 📂 Proje Klasör Yapısı
-Projenin GitHub üzerinde düzenli ve kurumsal görünmesi için klasör mimarisi şu şekilde kurgulanmıştır:
-```text
+
 SuperStore_Sales/
 │
 ├── 📁 Assets/           # Proje ekran görüntüleri ve görsel dökümantasyonlar
@@ -49,11 +48,15 @@ KPI Kartları: Toplam Ciro (₺12.64M), Toplam Kâr (₺1.47M), Toplam Satış A
 Müşteri Segmentasyonu: Cironun müşteri kırılımına göre dağılımı (Donut grafiğinde en büyük payın %51.49 ile Consumer segmentinde olduğu görülmektedir).
 Ülke Bazlı Satış Dağılımı: Satış yoğunluğunu kıtalara ve ülkelere göre görselleştiren interaktif harita yapısı.
 
+--![manager](Assets/manager.png)
+
 B. Zaman ve Trend Analizi (Trend & Growth)
 Şirketin zamansal büyümesini, dönemsel trendleri ve müşteri sürekliliğini analiz eder.
 
 Zaman İçinde Büyüme Trendi: Toplam Kâr ve Toplam Cironun tarihsel süreçteki dalgalanmalarını gösteren alan-çizgi (Area-Line) kombinasyon grafiği.
 Yıllık Bazda Müşteri ve Sipariş Sayısı: 2011-2014 yılları arasında toplam sipariş sayısı ile tekil müşteri sayısını karşılaştırarak müşteri tutundurma oranını inceleyen çift eksenli sütun grafiği.
+
+--![trend](Assets/trend.png)
 
 C. Ürün ve Kategori Performansı (Product Deep-Dive)
 Hangi ürün grubunun şirkete değer kazandırdığını veya hangi ürünlerin zarar ettirdiğini saptamak için geliştirilmiştir.
@@ -62,5 +65,9 @@ Hiyerarşik Matris Tablosu: Ana Kategori (Furniture, Office Supplies, Technology
 En Çok Kâr Getiren İlk 10 Ürün: Şirketin en kârlı amiral gemisi ürünlerini (Örn: Canon imageCLASS) listeleyen yatay bar grafiği.
 En Çok Zarar Eden İlk 10 Ürün: Finansal açığı kapatmak adına acil önlem alınması gereken zararlı ürünleri (Örn: Cubify Cubex 3D Printers) listeleyen risk analiz grafiği.
 
+--![Product](Assets/Product.png)
+
+## 📬 İletişim
+Bu proje ile ilgili sorularınız veya önerileriniz için benimle [LinkedIn profilim](https://www.linkedin.com/in/deniz-bal-64838b225) üzerinden iletişime geçebilirsiniz.
 
 💡 Not: Bu çalışma, MSSQL ile veri mühendisliği tekniklerini ve Power BI ile ileri düzey veri görselleştirme/hikayeleştirme yetkinliklerini sergilemek amacıyla hazırlanmış uçtan uca profesyonel bir portfolyo projesidir.
