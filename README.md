@@ -3,15 +3,14 @@
 Bu proje, **SuperStore** veri seti üzerinde gerçekleştirilmiş uçtan uca bir veri analizi sürecini kapsamaktadır. Ham verilerin **MSSQL Server** kullanılarak temizlenmesi, performans optimizasyonu için **SQL View (Görünüm)** yapılarının oluşturulması ve elde edilen temiz veri modeliyle **Power BI** üzerinde profesyonel bir kurumsal raporlama paneli (dashboard) geliştirilmesi aşamalarını içerir.
 
 ---
-
 ## 📂 Proje Klasör Yapısı
-
+```text
 SuperStore_Sales/
 │
-├── 📁 Assets/           # Proje ekran görüntüleri ve görsel dökümantasyonlar
+├── 📁 Assets/           # Proje ekran görüntüleri (manager.png vb.) ve görsel dökümantasyonlar
 ├── 📁 PowerBI_Report/   # Power BI (.pbix) rapor dosyası
 └── 📁 SQL_Scripts/      # Veri Temizleme, EDA ve View oluşturan T-SQL kodları
-
+```
 ## 🛠️ 1. Aşama: Veri Temizleme ve Ön İşleme (MSSQL)
 Analiz sürecine başlamadan önce veri bütünlüğünü sağlamak ve veri tabanı performansını artırmak amacıyla ham veri seti gelişmiş T-SQL sorgularıyla işlenmiştir:
 
